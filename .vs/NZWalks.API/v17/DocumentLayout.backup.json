@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{799AD5A5-6850-4BED-B91B-C918EE3AD777}|NZWalks\\NZWalks.csproj|c:\\users\\keagon.beatty\\documents\\nzwalks\\nzwalks\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799AD5A5-6850-4BED-B91B-C918EE3AD777}|NZWalks\\NZWalks.csproj|solutionrelative:nzwalks\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799AD5A5-6850-4BED-B91B-C918EE3AD777}|NZWalks\\NZWalks.csproj|c:\\users\\keagon.beatty\\documents\\nzwalks\\nzwalks\\models\\dtos\\addregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799AD5A5-6850-4BED-B91B-C918EE3AD777}|NZWalks\\NZWalks.csproj|solutionrelative:nzwalks\\models\\dtos\\addregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799AD5A5-6850-4BED-B91B-C918EE3AD777}|NZWalks\\NZWalks.csproj|c:\\users\\keagon.beatty\\documents\\nzwalks\\nzwalks\\models\\dtos\\updateregiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799AD5A5-6850-4BED-B91B-C918EE3AD777}|NZWalks\\NZWalks.csproj|solutionrelative:nzwalks\\models\\dtos\\updateregiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799AD5A5-6850-4BED-B91B-C918EE3AD777}|NZWalks\\NZWalks.csproj|c:\\users\\keagon.beatty\\documents\\nzwalks\\nzwalks\\models\\dtos\\regiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799AD5A5-6850-4BED-B91B-C918EE3AD777}|NZWalks\\NZWalks.csproj|solutionrelative:nzwalks\\models\\dtos\\regiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799AD5A5-6850-4BED-B91B-C918EE3AD777}|NZWalks\\NZWalks.csproj|c:\\users\\keagon.beatty\\documents\\nzwalks\\nzwalks\\models\\domain\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799AD5A5-6850-4BED-B91B-C918EE3AD777}|NZWalks\\NZWalks.csproj|solutionrelative:nzwalks\\models\\domain\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799AD5A5-6850-4BED-B91B-C918EE3AD777}|NZWalks\\NZWalks.csproj|c:\\users\\keagon.beatty\\documents\\nzwalks\\nzwalks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799AD5A5-6850-4BED-B91B-C918EE3AD777}|NZWalks\\NZWalks.csproj|solutionrelative:nzwalks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799AD5A5-6850-4BED-B91B-C918EE3AD777}|NZWalks\\NZWalks.csproj|c:\\users\\keagon.beatty\\documents\\nzwalks\\nzwalks\\data\\nzwalksdbcontextmysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799AD5A5-6850-4BED-B91B-C918EE3AD777}|NZWalks\\NZWalks.csproj|solutionrelative:nzwalks\\data\\nzwalksdbcontextmysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799AD5A5-6850-4BED-B91B-C918EE3AD777}|NZWalks\\NZWalks.csproj|c:\\users\\keagon.beatty\\documents\\nzwalks\\nzwalks\\data\\nzwalksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799AD5A5-6850-4BED-B91B-C918EE3AD777}|NZWalks\\NZWalks.csproj|solutionrelative:nzwalks\\data\\nzwalksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799AD5A5-6850-4BED-B91B-C918EE3AD777}|NZWalks\\NZWalks.csproj|c:\\users\\keagon.beatty\\documents\\nzwalks\\nzwalks\\models\\domain\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799AD5A5-6850-4BED-B91B-C918EE3AD777}|NZWalks\\NZWalks.csproj|solutionrelative:nzwalks\\models\\domain\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799AD5A5-6850-4BED-B91B-C918EE3AD777}|NZWalks\\NZWalks.csproj|c:\\users\\keagon.beatty\\documents\\nzwalks\\nzwalks\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{799AD5A5-6850-4BED-B91B-C918EE3AD777}|NZWalks\\NZWalks.csproj|solutionrelative:nzwalks\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateRegionDto.cs",
+              "DocumentMoniker": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\Models\\DTOs\\UpdateRegionDto.cs",
+              "RelativeDocumentMoniker": "NZWalks\\Models\\DTOs\\UpdateRegionDto.cs",
+              "ToolTip": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\Models\\DTOs\\UpdateRegionDto.cs",
+              "RelativeToolTip": "NZWalks\\Models\\DTOs\\UpdateRegionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T19:51:15.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddRegionRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\Models\\DTOs\\AddRegionRequestDto.cs",
+              "RelativeDocumentMoniker": "NZWalks\\Models\\DTOs\\AddRegionRequestDto.cs",
+              "ToolTip": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\Models\\DTOs\\AddRegionRequestDto.cs",
+              "RelativeToolTip": "NZWalks\\Models\\DTOs\\AddRegionRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:27:28.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Region.cs",
+              "DocumentMoniker": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\Models\\Domain\\Region.cs",
+              "RelativeDocumentMoniker": "NZWalks\\Models\\Domain\\Region.cs",
+              "ToolTip": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\Models\\Domain\\Region.cs",
+              "RelativeToolTip": "NZWalks\\Models\\Domain\\Region.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:15:17.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegionDto.cs",
+              "DocumentMoniker": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\Models\\DTOs\\RegionDto.cs",
+              "RelativeDocumentMoniker": "NZWalks\\Models\\DTOs\\RegionDto.cs",
+              "ToolTip": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\Models\\DTOs\\RegionDto.cs",
+              "RelativeToolTip": "NZWalks\\Models\\DTOs\\RegionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:15:05.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegionsController.cs",
+              "DocumentMoniker": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\Controllers\\RegionsController.cs",
+              "RelativeDocumentMoniker": "NZWalks\\Controllers\\RegionsController.cs",
+              "ToolTip": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\Controllers\\RegionsController.cs",
+              "RelativeToolTip": "NZWalks\\Controllers\\RegionsController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAqwJMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:04:41.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NZWalksDbContextMySQL.cs",
+              "DocumentMoniker": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\Data\\NZWalksDbContextMySQL.cs",
+              "RelativeDocumentMoniker": "NZWalks\\Data\\NZWalksDbContextMySQL.cs",
+              "ToolTip": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\Data\\NZWalksDbContextMySQL.cs",
+              "RelativeToolTip": "NZWalks\\Data\\NZWalksDbContextMySQL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T13:02:13.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Difficulty.cs",
+              "DocumentMoniker": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\Models\\Domain\\Difficulty.cs",
+              "RelativeDocumentMoniker": "NZWalks\\Models\\Domain\\Difficulty.cs",
+              "ToolTip": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\Models\\Domain\\Difficulty.cs",
+              "RelativeToolTip": "NZWalks\\Models\\Domain\\Difficulty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:44:33.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NZWalksDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\Data\\NZWalksDbContext.cs",
+              "RelativeDocumentMoniker": "NZWalks\\Data\\NZWalksDbContext.cs",
+              "ToolTip": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\Data\\NZWalksDbContext.cs",
+              "RelativeToolTip": "NZWalks\\Data\\NZWalksDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T13:20:50.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\Program.cs",
+              "RelativeDocumentMoniker": "NZWalks\\Program.cs",
+              "ToolTip": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\Program.cs",
+              "RelativeToolTip": "NZWalks\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAYAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:18:11.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\appsettings.json",
+              "RelativeDocumentMoniker": "NZWalks\\appsettings.json",
+              "ToolTip": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\appsettings.json",
+              "RelativeToolTip": "NZWalks\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-19T12:13:29.381Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

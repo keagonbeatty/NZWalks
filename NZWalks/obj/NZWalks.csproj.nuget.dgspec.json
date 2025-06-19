@@ -1,26 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "/Users/keagon_beatty/Documents/NZWalks.API/NZWalks/NZWalks.csproj": {}
+    "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\NZWalks.csproj": {}
   },
   "projects": {
-    "/Users/keagon_beatty/Documents/NZWalks.API/NZWalks/NZWalks.csproj": {
+    "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\NZWalks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/keagon_beatty/Documents/NZWalks.API/NZWalks/NZWalks.csproj",
+        "projectUniqueName": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\NZWalks.csproj",
         "projectName": "NZWalks",
-        "projectPath": "/Users/keagon_beatty/Documents/NZWalks.API/NZWalks/NZWalks.csproj",
-        "packagesPath": "/Users/keagon_beatty/.nuget/packages/",
-        "outputPath": "/Users/keagon_beatty/Documents/NZWalks.API/NZWalks/obj/",
+        "projectPath": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\NZWalks.csproj",
+        "packagesPath": "C:\\Users\\keagon.beatty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\keagon.beatty\\Documents\\NZWalks\\NZWalks\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/keagon_beatty/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\keagon.beatty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://superradiatorcoils.pkgs.visualstudio.com/_packaging/SRCLibraries/nuget/v3/index.json": {},
+          "https://superradiatorcoils.pkgs.visualstudio.com/_packaging/ThirdPartyLibraries/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -48,6 +56,16 @@
               "version": "[8.0.17, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
@@ -81,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.411/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
