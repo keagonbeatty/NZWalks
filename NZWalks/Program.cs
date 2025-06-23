@@ -1,5 +1,13 @@
+using System.Text;
 using Microsoft.EntityFrameworkCore;
 using NZWalks.Data;
+using NZWalks.Mappings;
+using NZWalks.Repositories;
+using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.IdentityModel.Tokens.Experimental;
 
 namespace NZWalks;
 
@@ -31,14 +39,52 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         var connectionString = builder.Configuration.GetConnectionString("NZWalksConnectionStringMySQL");
-        var connectionStringSQL = builder.Configuration.GetConnectionString("NZWalksConnectionStringMicroSQL");
+        var connectionStringAuth = builder.Configuration.GetConnectionString("NZWalksAuthConnectionString");
+        //var connectionStringSQL = builder.Configuration.GetConnectionString("NZWalksConnectionStringMicroSQL");
 
-        builder.Services.AddDbContext<NzWalksSqlServerDbContext>(options =>
-    options.UseSqlServer(connectionStringSQL));
+    //     builder.Services.AddDbContext<NzWalksSqlServerDbContext>(options =>
+    // options.UseSqlServer(connectionStringSQL));
 
-        //builder.Services.AddDbContext<NZWalksDbContextMySQL>(options =>
-        //    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+    builder.Services.AddScoped<IRegionRepository, MySqlRegionRepository>();
+    builder.Services.AddScoped<IWalkRepository, MySQLWalkRepository>();
+    builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 
+    builder.Services.AddIdentityCore<IdentityUser>()
+        .AddRoles<IdentityRole>()
+        .AddTokenProvider<DataProtectorTokenProvider<IdentityUser>>("NZWalks")
+        .AddEntityFrameworkStores<NZWalksAuthDbContext>().AddDefaultTokenProviders();
+
+    builder.Services.Configure<IdentityOptions>(options =>
+    {
+        options.Password.RequireDigit = false;
+        options.Password.RequireLowercase = false;
+        options.Password.RequireNonAlphanumeric = false;
+        options.Password.RequireUppercase = false;
+        options.Password.RequiredLength = 6;
+        options.Password.RequiredUniqueChars = 1;
+    });
+    
+    
+    builder.Services.AddDbContext<NZWalksDbContextMySQL>(options =>
+        options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+    
+    builder.Services.AddDbContext<NZWalksAuthDbContext>(options =>
+        options.UseMySql(connectionStringAuth, ServerVersion.AutoDetect(connectionStringAuth)));
+
+        builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            .AddJwtBearer((options) =>
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    ValidIssuer = builder.Configuration["Jwt:Issuer"],
+                    ValidAudience = builder.Configuration["Jwt:Audience"],
+                    IssuerSigningKey = new SymmetricSecurityKey(
+                        Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+                }
+            );
 
         var app = builder.Build();
 
@@ -50,10 +96,8 @@ public class Program
         }
 
         app.UseHttpsRedirection();
-
+        app.UseAuthentication();
         app.UseAuthorization();
-
-
         app.MapControllers();
 
         app.Run();
